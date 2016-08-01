@@ -18,7 +18,6 @@ RUN groupadd -r sonar \
  && mkdir -p /data \
  && chown -R sonar:sonar /data
 
-USER sonar
 WORKDIR /data
 
 VOLUME /data
